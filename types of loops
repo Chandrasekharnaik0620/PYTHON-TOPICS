@@ -1,0 +1,19 @@
+#loops for loop and while loop
+# basic program 1
+#num1=int(input("enter a number :"))
+#for num1 in range(100):
+  #  print("tillu",'c')
+
+#program 2:
+#ips=["192.158.1.1","10.10.10.0","123.23.40.0"]
+#for ip in ips:
+ #   print("pinging {ip}...........................................")
+
+#programming 3: password brute force simulation
+#password=["123","admin","root","tinku","letmein","123","admin","root","tinku","letmein","123","admin","root","tinku","letmein","123","admin","root","tinku","letmein"]
+#target="kedi"
+#for pwd in password:
+ #   print(f"trying..................")
+  #  if pwd ==target:
+   #     print("password found ")
+    #    break
