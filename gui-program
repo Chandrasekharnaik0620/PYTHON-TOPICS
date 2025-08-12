@@ -1,0 +1,21 @@
+#GUI building (graphical user interface)using tkinter
+
+import tkinter as tk
+
+def on_button_click():
+    print("✨ 𝑩𝒖𝒕𝒕𝒐𝒏 𝒊𝒔 𝒄𝒍𝒊𝒄𝒌𝒆𝒅 ✨")
+    print(entry.get)
+window=tk.Tk()
+window.title("✧ 𝒯𝒽𝒾𝓈 𝒾𝓈 𝓂𝓎 𝒻𝒾𝓇𝓈𝓉 𝒢𝒰𝐼 𝒶𝓅𝓅 ✧")
+window.geometry("300x400")
+label=tk.Label(window,text="𓆩 𝒞𝒽𝒶𝓃𝒹𝒽𝓊 𝒩𝒶𝒾𝓀 ")
+label.pack()
+button=tk.Button(window,text="✦ 𝒞𝓁𝑒𝒶𝓀 𝑀𝑒 ✦",command= on_button_click)
+button.pack()
+entry=tk.Entry(window)
+entry.pack()
+
+ 
+#label.grid(row=0,column=0)
+#button.grid(row=0,column=0)
+window.mainloop()    
