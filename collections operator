@@ -1,0 +1,189 @@
+#collections are 4 type 
+# 1. list
+# 2. tuple
+# 3. set
+# 4.dictionary
+
+
+# 1.list collection of different data types in ordered,allows duplicate vallues
+#mylist=["chinna","chandhu",234,4542.2,True]
+#print(mylist)
+#print(type(mylist))
+#mylist[2]="asd"
+#print(mylist)
+
+
+#mylist=["chinna","chotu",23,45.3,True]
+#print(len(mylist)) #know the length of the list
+
+#mylist=["kittu","tillu","tinku",234.34,45,False]
+#mylist.append("java script")
+#print(mylist) #append add the veriable inside
+
+#mylist=["chinna","tillu",23.56,67,False]
+#mylist.insert(3,"chintu")
+#print(mylist) #insert at a particular place
+
+#mylist=["venakeswara","swamy",23,34.5,False]
+#list2=["padmavathi amma","ee","chinna","kodukuni",234]
+#final_list=mylist+list2
+#print(final_list) # add list into list
+#list.extend(list2)
+#print(mylist)
+ 
+#mylist=["chinna","kittu","tinku",23,674.5,True]
+#mylist.remove("kittu") #remove particular place  u have to remove
+#print(mylist)
+
+
+#mylist=["tillu","kedi","killer","tillu","bunny",345,45.6]
+#mylist.clear() #clears total/all mylist
+#print(mylist)
+
+#mylist=["tikku","killer","tilqu",45,675.4,True]
+#if "tillu"in mylist:
+ #   print("tillu is present") #check wether the item is present
+#else:
+ #   print("tillu is not present")
+
+
+#mylist=["chinna","tillu","tinku",345.5,567,False]
+#mylist.pop(2) #remove particular index u have to remove
+#print(mylist)
+
+#l1=[1,2,4,5,6,8,9,23,345,456,67,68]
+#l1.sort() #sort the list/asinding order
+#print(l1)
+
+#l1=[2,3,5,8,9,23,56,78,90,234,456,654]
+#l1.sort(reverse=True)
+#print(l1)  #reverses using sort
+
+
+#tuples:ordered and immuitable ,no changing no adding no removeing  allows duplicate values 
+# index start with 0
+#tuple=(1,"python","chinna",23.4,False)
+#print(tuple)
+#print(type(tuple))  #know what type is this program
+
+#tuple=(3,45,67,"chinna","tillu","tinku","bill","lab")
+#print(tuple[5]) #know at the index what is present
+
+#tuple=("tillu","kittu","bunny","bittu",2,34,342.4)
+#print(tuple[1:4]) #slicing/ranging
+
+#tuple1=(1,2,3,4)
+#tuple2=(4,6,7,8)
+#result=tuple1+tuple2 #adding tuple into tuple
+#print(result)
+
+#repitation
+#tuple=(2,3,4,5,6,7,8)
+#result=tuple*2 #repitation of numbers using tuple 
+#print(result)
+
+#packing and unpacking 
+#fruits=("apple","banana","cherry") #packing 
+#print(fruits)
+#green,yellow,red=fruits
+#print(green)
+#print(yellow) #unpacking
+#print(red)
+
+
+#count theveriable how many are there repitatively
+#my_tuple=(2,3,4,4,5,6,7,7,7,8)
+#print(my_tuple.count(7)) #checking or counting a veriable how many times
+
+#my_tuple=(2,3,4,5,6,7,8,9,10)
+#print(my_tuple.index(4)) #check the index of particular veriable
+
+#dictionary:cllection of veriables,ordered,mutable,removable, {} ,no duplicate values are allowed
+#my_dict={"name":"chandhu",
+ #        "class":"12",
+  #       "subject":"telugu",
+   #      "roleno":"10",
+    #     }
+#print(my_dict)
+#print(type(my_dict))#know the type of program
+
+#my_dict={"name":"chintu",
+ #        "class":"2",
+  #       "subject":"english",
+   #      "course":"python",
+    #     }
+#print(my_dict["course"]) #print perticular one u have to check
+#print(my_dict.get("course")) another type to check the particular one u need
+
+#my_dict={"name":"chinnu",
+ #        "class":"4",
+  #       "role":"number",
+   #      }
+#my_dict["age"]=31
+
+
+#print(my_dict) #u can add inside the dictionary using this one
+#my_dict={"name":"chinna",
+ #        "class":"6",
+  #       "course":"biology",
+   #      "academy":"apms",
+    #     }
+#my_dict.pop("course")
+#my_dict.popitems("couse")
+#print(my_dict)
+
+#different types of methodes in dictionary
+
+#my_dict={"name":"chinna",
+ #        "course":"python",
+  #       "roleno":"23",
+   #      }
+#print(my_dict.keys()) #prints the keys
+#print(my_dict.values()) #prints the values are provided in keys
+#print(my_dict.items()) #printd both keys and values 
+#my_dict={"name":"chinna",
+ #        "course":"chemistry",
+  #       "roleno":"2",
+   #      }
+#print(my_dict.clear()) #clears entair dictionary
+#new_dict=my_dict.copy() #copy the dictionary into another dictionary
+#print(new_dict)
+  
+
+#my_dict={"name":"chintu",
+ #        "class":"2",
+  #       "rolenumber":"23",
+   #      "subject":"telugu",
+    #     }
+
+#for key in my_dict: #prints the keys only
+#    print(key)
+#for demo in my_dict.values():
+ #   print(demo)
+
+#my_dict={"name":"tinku",
+ #       "course":"cse",
+  #      "rolenumber":"234",
+   #     }
+#for key,value in my_dict.items():
+ #   print(key,value) #prints keys and values
+
+
+
+######sets :collection of unordered,no duplicates are allowed 
+#my_set={2,3,5,7,"chinna","tillu","kedi","kittu"}
+#print(my_set)
+#print(type(my_set))#print what type it is
+
+#my_set.add("kinnu") #add inside the set
+#print(my_set)
+
+#my_set.remove("tillu") #remove which one u have to download
+#print(my_set)
+#my_set.discard("chinna") #u can remove but it not shows the error
+#print(my_set)
+
+#y_set1= {2,3,4}
+#my_set2={34,45,6}
+#print(my_set1+my_set2) #unione of two sets 
+
